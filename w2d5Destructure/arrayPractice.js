@@ -50,14 +50,9 @@ function includesEvenNum(arr){
 
 function includesEvenAge(arr){
     return arr.includes(item => item.age%2===0);
-    // let evenAge = arr.find(item =>item.age%2===0);
-    //  if(evenAge!== undefined){
-    //   return true;
-    // }else {
-    //     return false;
-    // }
-
-
+    
+}
+/* this functions are no mocha */
 // function findSumOfNumber(arr){
 //     console.log( arr.reduce(function(sum,current){
 //         return sum+current;
@@ -98,4 +93,4 @@ function includesEvenAge(arr){
 //     }
 //     console.log(averageOdd());
     
-}
+
